@@ -1,2 +1,2 @@
 # sdv601-lab-tutorials
-List of tutorials that incorporate the building a student enrolment form.
+List of tutorials that incorporate the building of a student enrolment form.
