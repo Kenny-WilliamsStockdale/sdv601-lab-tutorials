@@ -1,6 +1,6 @@
 ﻿namespace Enrolment4
 {
-    class InternationalStudent : Student
+   public class InternationalStudent : Student
     {
         private string _country;
         private float _itelsScore;
@@ -12,6 +12,11 @@
         public override bool ViewEdit()
         {
             return Convert.ToBoolean(_form.ShowDialog(this));
+        }
+
+        public override string TypeOfStudent()
+        {
+           return "International";
         }
     }
 }

@@ -46,5 +46,7 @@
         {
             return string.Format("{0}\n{1}", ID, Name);
         }
+
+        public abstract string TypeOfStudent();
     }
 }

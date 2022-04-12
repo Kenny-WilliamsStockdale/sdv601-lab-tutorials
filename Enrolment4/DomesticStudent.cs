@@ -2,7 +2,7 @@
 
 namespace Enrolment4
 {
-    class DomesticStudent : Student
+   public class DomesticStudent : Student
     {
         private decimal _loanAmount;
         private bool _fullTime;
@@ -14,6 +14,11 @@ namespace Enrolment4
         public override bool ViewEdit()
         {
             return Convert.ToBoolean(_form.ShowDialog(this));
+        }
+
+        public override string TypeOfStudent()
+        {
+            return "Domestic";
         }
     }
 }
